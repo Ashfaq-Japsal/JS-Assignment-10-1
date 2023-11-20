@@ -12,11 +12,11 @@ for ( var a = 1; a <= 10; a++){
 //4
 document.write (`<br>`)
 document.write (`<br>`)
-var tableNumber = prompt (`Enter a number to show its muiplication table`)
+var tableNumber = prompt (`Enter a number to show its multiplication table`)
 var tableLength = prompt (`Enter length of multiplication table`)
 document.write (`Multiplication table of ${tableNumber} length ${tableLength}<br><br>`)
 for ( var a = 1; a <= tableLength; a++){
-    document.write (`${tableNumber} x ${a} = ${tableNumber*a}`)
+    document.write (`${tableNumber} x ${a} = ${tableNumber*a}<br>`)
 }
 
 //5
@@ -29,7 +29,7 @@ for ( var a = 0; a < fruits.length; a++){
 
 //7
 var bakkeryItems = ["cake", "apple pie", "cookie", "chips", "patties"]
-var useritem = prompt(`Welcome to A bakery. What do you want to sir?`)
+var useritem = prompt(`Welcome to A bakery. What do you want to buy?`)
 var flag = false
 for ( var a = 0; a < bakkeryItems.length; a++){
     if (useritem==bakkeryItems[a]) {
